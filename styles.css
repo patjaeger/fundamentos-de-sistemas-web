@@ -108,44 +108,53 @@ footer a:hover {
     font-size: 0.9rem;
     color: #bbb;
 }
+
 .btn-success {
     background-color: #4CAF50;
     border-color: #4CAF50;
 }
+
 .btn-success:hover {
     background-color: #45a049;
     border-color: #45a049;
 }
+
 fieldset {
     border: 2px solid #4CAF50;
     padding: 20px;
     border-radius: 10px;
     margin-top: 20px;
 }
+
 legend {
     color: #4CAF50;
     font-size: 1.5rem;
     font-weight: bold;
 }
+
 .btn-success {
     background-color: #4CAF50;
     border-color: #4CAF50;
 }
+
 .btn-success:hover {
     background-color: #45a049;
     border-color: #45a049;
 }
+
 fieldset {
     border: 2px solid #4CAF50;
     padding: 20px;
     border-radius: 10px;
     margin-top: 20px;
 }
+
 legend {
     color: #4CAF50;
     font-size: 1.5rem;
     font-weight: bold;
 }
+
 .btn-success {
     background-color: #4CAF50;
     border-color: #4CAF50;
@@ -172,7 +181,27 @@ legend {
 .form-label {
     font-weight: bold;
 }
-.carousel-item{    
-    width: 20vw !important;
-    height:30vh;
+
+#meuCarrossel {
+    width: 30vw;
+    margin: 1rem auto;
+}
+
+.bg-green {
+    background-color: #4ab34c;
+}
+
+.navbar-prod {
+    padding: 1rem;
+    color: #fff;
+}
+
+.nav-item {
+    list-style: none;
+    padding: 0 1rem;
+}
+
+.navbar-brand {
+    color: #fff !important;
+    padding-left: 1rem;
 }
