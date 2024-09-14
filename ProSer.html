@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loja de Produtos</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Estilização -->
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+
+    <!-- Navegação da barra de serviços -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Loja de Produtos</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+                <li class="nav-item active">
+                    <a class="nav-link" href="http://127.0.0.1:5500/SolServ.html">Serviço</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="http://127.0.0.1:5500/FormCadUsu.html">Cadastre seu Usuário</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="http://127.0.0.1:5500/FormCadPet.html">Cadastre Seu Pet</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Cabeçalho -->
+    <section class="hero bg-light text-center py-5">
+        <div class="container">
+            <h1 class="display-4">Selecione o produto ou serviço desejado</h1>
+        </div>
+    </section>
+    <div id="meuCarrossel" class="carousel slide" data-bs-ride="carousel">
+        <!-- Indicadores -->
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#meuCarrossel" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#meuCarrossel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#meuCarrossel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+
+        <!-- Slides -->
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="Imagens/FotBanCac.png" class="d-block w-100"
+                    alt="Primeiro Slide">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Primeiro Slide</h5>
+                    <p>Este é o primeiro slide do carrossel.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="Imagens/FotTosCac.png" class="d-block w-100"
+                    alt="Segundo Slide">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Segundo Slide</h5>
+                    <p>Este é o segundo slide do carrossel.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Controles Anterior e Próximo -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#meuCarrossel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Anterior</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#meuCarrossel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Próximo</span>
+        </button>
+    </div>
+
+    <!-- Detalhes dos produtos e serviços -->
+    <section class="product-details py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="Imagens/RacSecGraPlu.png" alt="Imagem do Produto" width="300" height="300">
+                </div>
+                <div class="col-md-6">
+                    <h2>Ração Seca Grand Plus</h2>
+                    <h4 class="text-success">R$ 39,90</h4>
+                    <button class="btn btn-success btn-lg">Adicionar ao Carrinho</button>
+                </div>
+            </div>
+        </div>
+        <div>
+        <br><br>
+        <br><br>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="/Imagens/Racao-Seca-Pedigree-para-Caes-Adultos.jpg" alt="Imagem do Produto" width="300" height="300">
+                </div>
+                <div class="col-md-6">
+                    <h2>Ração Seca Pedigree</h2>
+                    <h4 class="text-success">R$ 49,90</h4>
+                    <button class="btn btn-success btn-lg">Adicionar ao Carrinho</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br><br>
+    <br><br>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <img src="/Imagens/RacUmiRoyCan.png" alt="Imagem do Produto" width="300" height="300">
+            </div>
+            <div class="col-md-6">
+                <h2>Ração Úmida Royal Canin</h2>
+                <h4 class="text-success">R$ 30,99</h4>
+                <button class="btn btn-success btn-lg">Adicionar ao Carrinho</button>
+            </div>
+        </div>
+    </div>
+    </section>
+</div>
+<div class="container">
+    <div class="row">
+        <div class="col-md-6">
+            <img src="/Imagens/FotBanCac.png" alt="Imagem do Produto" width="300" height="300">
+        </div>
+        <div class="col-md-6">
+            <h2>Banho</h2>
+            <h4 class="text-success">Pequeno porte R$ 50,00 / Grande porte R$ 100,00</h4>
+            <button class="btn btn-success btn-lg" onclick="window.location.href='http://127.0.0.1:5500/SolServ.html';">
+                Ir para a seleção do serviço
+            </button>  
+        </div>
+    </div>
+</div>
+</div>
+<br><br>
+<br><br>
+<div class="container">
+<div class="row">
+    <div class="col-md-6">
+        <img src="/Imagens/FotTosCac.png" alt="Imagem do Produto" width="300" height="300">
+    </div>
+    <div class="col-md-6">
+        <h2>Tosa</h2>
+        <h4 class="text-success">Pequeno porte R$ 50,00 / Grande porte R$ 100,00</h4>
+        <button class="btn btn-success btn-lg" onclick="window.location.href='http://127.0.0.1:5500/SolServ.html';">
+            Ir para a seleção do serviço
+        </button>        
+    </div>
+</div>
+</div>
+</section>
+<br><br>
+<br><br>
+    <!-- Rodapé -->
+    <footer class="footer bg-dark text-white py-4">
+        <div class="container text-center">
+            <p>&copy; Patricia Jaeger Augusto, 14 de setembro de 2024. Todos os direitos reservados</p>
+        </div>
+    </footer>
+</body>
+</html>

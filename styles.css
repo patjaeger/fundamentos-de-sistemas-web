@@ -1,0 +1,178 @@
+.hero {
+    background: image-set('Imagens/PetLove.png') center/cover no-repeat;
+    color: white;
+}
+
+.product-details img {
+    border-radius: 10px;
+}
+
+.reviews .card {
+    border: none;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    background-color: #4CAF50;
+    padding: 20px 0;
+}
+
+.logo {
+    font-size: 2rem;
+    font-weight: bold;
+    color: white;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #d1ecf1;
+}
+
+.search-bar input[type="text"] {
+    padding: 5px;
+    border: none;
+    border-radius: 20px;
+    padding-left: 15px;
+}
+
+.search-bar button {
+    background-color: #fff;
+    color: #4CAF50;
+    border: none;
+    padding: 5px 15px;
+    border-radius: 20px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.search-bar button:hover {
+    background-color: #4CAF50;
+    color: white;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+    background-color: #4ab34c;
+    color: white;
+    padding: 40px 0;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+footer a:hover {
+    color: #ffcc00;
+}
+
+.footer-title {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.social-icons a {
+    margin: 0 10px;
+    font-size: 1.5rem;
+}
+
+.social-icons a:hover {
+    color: #ffcc00;
+}
+
+.copyright {
+    margin-top: 20px;
+    text-align: center;
+    border-top: 1px solid #444;
+    padding-top: 20px;
+    font-size: 0.9rem;
+    color: #bbb;
+}
+.btn-success {
+    background-color: #4CAF50;
+    border-color: #4CAF50;
+}
+.btn-success:hover {
+    background-color: #45a049;
+    border-color: #45a049;
+}
+fieldset {
+    border: 2px solid #4CAF50;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+legend {
+    color: #4CAF50;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.btn-success {
+    background-color: #4CAF50;
+    border-color: #4CAF50;
+}
+.btn-success:hover {
+    background-color: #45a049;
+    border-color: #45a049;
+}
+fieldset {
+    border: 2px solid #4CAF50;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+legend {
+    color: #4CAF50;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.btn-success {
+    background-color: #4CAF50;
+    border-color: #4CAF50;
+}
+
+.btn-success:hover {
+    background-color: #45a049;
+    border-color: #45a049;
+}
+
+fieldset {
+    border: 2px solid #4CAF50;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+legend {
+    color: #4CAF50;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.form-label {
+    font-weight: bold;
+}
+.carousel-item{    
+    width: 20vw !important;
+    height:30vh;
+}
